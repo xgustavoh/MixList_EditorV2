@@ -26,7 +26,15 @@ namespace MixListEditorV2 {
 	private: 
 		npcCompleto* NPCBase;
 		npcCompleto* NPCEdit;
-		bool salve;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_8;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_7;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_6;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_5;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_4;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_3;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_2;
+	private: System::Windows::Forms::ComboBox^  cb_item_reqt_1;
+			 bool salve;
 
 	public:
 		MyForm(void)
@@ -67,42 +75,42 @@ namespace MixListEditorV2 {
 
 	private: System::Windows::Forms::Label^  label32;
 	private: System::Windows::Forms::GroupBox^  groupBox4;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_8;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_8;
 
 	private: System::Windows::Forms::Label^  label20;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_7;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_7;
 
 	private: System::Windows::Forms::Label^  label18;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_6;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_6;
 
 	private: System::Windows::Forms::Label^  label17;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_5;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_5;
 
 	private: System::Windows::Forms::Label^  label16;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_4;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_4;
 
 	private: System::Windows::Forms::Label^  label15;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_2;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_2;
 
 	private: System::Windows::Forms::Label^  label12;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_3;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_3;
 
 	private: System::Windows::Forms::Label^  label11;
-	private: System::Windows::Forms::CheckBox^  cb_NPC_ItemReq_1;
+
 
 	private: System::Windows::Forms::TextBox^  tb_NPC_ItemReq_1;
 
@@ -233,28 +241,28 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->tb_NPC_id = (gcnew System::Windows::Forms::TextBox());
 			this->label32 = (gcnew System::Windows::Forms::Label());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
-			this->cb_NPC_ItemReq_8 = (gcnew System::Windows::Forms::CheckBox());
+			this->cb_item_reqt_8 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_7 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_6 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_5 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_4 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_3 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_2 = (gcnew System::Windows::Forms::ComboBox());
+			this->cb_item_reqt_1 = (gcnew System::Windows::Forms::ComboBox());
 			this->tb_NPC_ItemReq_8 = (gcnew System::Windows::Forms::TextBox());
 			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_7 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_7 = (gcnew System::Windows::Forms::TextBox());
 			this->label18 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_6 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_6 = (gcnew System::Windows::Forms::TextBox());
 			this->label17 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_5 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_5 = (gcnew System::Windows::Forms::TextBox());
 			this->label16 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_4 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_4 = (gcnew System::Windows::Forms::TextBox());
 			this->label15 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_2 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_2 = (gcnew System::Windows::Forms::TextBox());
 			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_3 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_3 = (gcnew System::Windows::Forms::TextBox());
 			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->cb_NPC_ItemReq_1 = (gcnew System::Windows::Forms::CheckBox());
 			this->tb_NPC_ItemReq_1 = (gcnew System::Windows::Forms::TextBox());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->tb_NPC_face = (gcnew System::Windows::Forms::TextBox());
@@ -384,28 +392,28 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			// 
 			// groupBox4
 			// 
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_8);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_8);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_7);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_6);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_5);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_4);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_3);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_2);
+			this->groupBox4->Controls->Add(this->cb_item_reqt_1);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_8);
 			this->groupBox4->Controls->Add(this->label20);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_7);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_7);
 			this->groupBox4->Controls->Add(this->label18);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_6);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_6);
 			this->groupBox4->Controls->Add(this->label17);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_5);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_5);
 			this->groupBox4->Controls->Add(this->label16);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_4);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_4);
 			this->groupBox4->Controls->Add(this->label15);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_2);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_2);
 			this->groupBox4->Controls->Add(this->label12);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_3);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_3);
 			this->groupBox4->Controls->Add(this->label11);
-			this->groupBox4->Controls->Add(this->cb_NPC_ItemReq_1);
 			this->groupBox4->Controls->Add(this->tb_NPC_ItemReq_1);
 			this->groupBox4->Controls->Add(this->label19);
 			this->groupBox4->Location = System::Drawing::Point(544, 19);
@@ -415,16 +423,109 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"Item Requeridos:";
 			// 
-			// cb_NPC_ItemReq_8
+			// cb_item_reqt_8
 			// 
-			this->cb_NPC_ItemReq_8->AutoSize = true;
-			this->cb_NPC_ItemReq_8->Location = System::Drawing::Point(217, 210);
-			this->cb_NPC_ItemReq_8->Name = L"cb_NPC_ItemReq_8";
-			this->cb_NPC_ItemReq_8->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_8->TabIndex = 23;
-			this->cb_NPC_ItemReq_8->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_8->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_8->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_8_CheckedChanged);
+			this->cb_item_reqt_8->FormattingEnabled = true;
+			this->cb_item_reqt_8->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_8->Location = System::Drawing::Point(201, 208);
+			this->cb_item_reqt_8->Name = L"cb_item_reqt_8";
+			this->cb_item_reqt_8->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_8->TabIndex = 31;
+			this->cb_item_reqt_8->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_8_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_7
+			// 
+			this->cb_item_reqt_7->FormattingEnabled = true;
+			this->cb_item_reqt_7->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_7->Location = System::Drawing::Point(201, 181);
+			this->cb_item_reqt_7->Name = L"cb_item_reqt_7";
+			this->cb_item_reqt_7->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_7->TabIndex = 30;
+			this->cb_item_reqt_7->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_7_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_6
+			// 
+			this->cb_item_reqt_6->FormattingEnabled = true;
+			this->cb_item_reqt_6->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_6->Location = System::Drawing::Point(201, 156);
+			this->cb_item_reqt_6->Name = L"cb_item_reqt_6";
+			this->cb_item_reqt_6->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_6->TabIndex = 29;
+			this->cb_item_reqt_6->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_6_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_5
+			// 
+			this->cb_item_reqt_5->FormattingEnabled = true;
+			this->cb_item_reqt_5->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_5->Location = System::Drawing::Point(201, 130);
+			this->cb_item_reqt_5->Name = L"cb_item_reqt_5";
+			this->cb_item_reqt_5->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_5->TabIndex = 28;
+			this->cb_item_reqt_5->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_5_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_4
+			// 
+			this->cb_item_reqt_4->FormattingEnabled = true;
+			this->cb_item_reqt_4->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_4->Location = System::Drawing::Point(201, 104);
+			this->cb_item_reqt_4->Name = L"cb_item_reqt_4";
+			this->cb_item_reqt_4->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_4->TabIndex = 27;
+			this->cb_item_reqt_4->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_4_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_3
+			// 
+			this->cb_item_reqt_3->FormattingEnabled = true;
+			this->cb_item_reqt_3->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_3->Location = System::Drawing::Point(201, 78);
+			this->cb_item_reqt_3->Name = L"cb_item_reqt_3";
+			this->cb_item_reqt_3->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_3->TabIndex = 26;
+			this->cb_item_reqt_3->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_3_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_2
+			// 
+			this->cb_item_reqt_2->FormattingEnabled = true;
+			this->cb_item_reqt_2->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_2->Location = System::Drawing::Point(201, 52);
+			this->cb_item_reqt_2->Name = L"cb_item_reqt_2";
+			this->cb_item_reqt_2->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_2->TabIndex = 25;
+			this->cb_item_reqt_2->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_2_SelectedIndexChanged);
+			// 
+			// cb_item_reqt_1
+			// 
+			this->cb_item_reqt_1->FormattingEnabled = true;
+			this->cb_item_reqt_1->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"0 - ItemList", L"1 - Lista Interna", L"2 - Soul",
+					L"3 - Outros"
+			});
+			this->cb_item_reqt_1->Location = System::Drawing::Point(201, 26);
+			this->cb_item_reqt_1->Name = L"cb_item_reqt_1";
+			this->cb_item_reqt_1->Size = System::Drawing::Size(121, 21);
+			this->cb_item_reqt_1->TabIndex = 24;
+			this->cb_item_reqt_1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::cb_item_reqt_1_SelectedIndexChanged);
 			// 
 			// tb_NPC_ItemReq_8
 			// 
@@ -443,17 +544,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label20->TabIndex = 21;
 			this->label20->Text = L"Item 8:";
 			// 
-			// cb_NPC_ItemReq_7
-			// 
-			this->cb_NPC_ItemReq_7->AutoSize = true;
-			this->cb_NPC_ItemReq_7->Location = System::Drawing::Point(217, 184);
-			this->cb_NPC_ItemReq_7->Name = L"cb_NPC_ItemReq_7";
-			this->cb_NPC_ItemReq_7->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_7->TabIndex = 20;
-			this->cb_NPC_ItemReq_7->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_7->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_7->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_7_CheckedChanged);
-			// 
 			// tb_NPC_ItemReq_7
 			// 
 			this->tb_NPC_ItemReq_7->Location = System::Drawing::Point(54, 182);
@@ -470,17 +560,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label18->Size = System::Drawing::Size(39, 13);
 			this->label18->TabIndex = 18;
 			this->label18->Text = L"Item 7:";
-			// 
-			// cb_NPC_ItemReq_6
-			// 
-			this->cb_NPC_ItemReq_6->AutoSize = true;
-			this->cb_NPC_ItemReq_6->Location = System::Drawing::Point(217, 158);
-			this->cb_NPC_ItemReq_6->Name = L"cb_NPC_ItemReq_6";
-			this->cb_NPC_ItemReq_6->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_6->TabIndex = 17;
-			this->cb_NPC_ItemReq_6->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_6->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_6->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_6_CheckedChanged);
 			// 
 			// tb_NPC_ItemReq_6
 			// 
@@ -499,17 +578,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label17->TabIndex = 15;
 			this->label17->Text = L"Item 6:";
 			// 
-			// cb_NPC_ItemReq_5
-			// 
-			this->cb_NPC_ItemReq_5->AutoSize = true;
-			this->cb_NPC_ItemReq_5->Location = System::Drawing::Point(217, 132);
-			this->cb_NPC_ItemReq_5->Name = L"cb_NPC_ItemReq_5";
-			this->cb_NPC_ItemReq_5->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_5->TabIndex = 14;
-			this->cb_NPC_ItemReq_5->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_5->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_5->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_5_CheckedChanged);
-			// 
 			// tb_NPC_ItemReq_5
 			// 
 			this->tb_NPC_ItemReq_5->Location = System::Drawing::Point(54, 130);
@@ -526,17 +594,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label16->Size = System::Drawing::Size(39, 13);
 			this->label16->TabIndex = 12;
 			this->label16->Text = L"Item 5:";
-			// 
-			// cb_NPC_ItemReq_4
-			// 
-			this->cb_NPC_ItemReq_4->AutoSize = true;
-			this->cb_NPC_ItemReq_4->Location = System::Drawing::Point(217, 106);
-			this->cb_NPC_ItemReq_4->Name = L"cb_NPC_ItemReq_4";
-			this->cb_NPC_ItemReq_4->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_4->TabIndex = 11;
-			this->cb_NPC_ItemReq_4->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_4->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_4->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_4_CheckedChanged);
 			// 
 			// tb_NPC_ItemReq_4
 			// 
@@ -555,17 +612,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label15->TabIndex = 9;
 			this->label15->Text = L"Item 4:";
 			// 
-			// cb_NPC_ItemReq_2
-			// 
-			this->cb_NPC_ItemReq_2->AutoSize = true;
-			this->cb_NPC_ItemReq_2->Location = System::Drawing::Point(217, 54);
-			this->cb_NPC_ItemReq_2->Name = L"cb_NPC_ItemReq_2";
-			this->cb_NPC_ItemReq_2->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_2->TabIndex = 8;
-			this->cb_NPC_ItemReq_2->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_2->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_2->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_2_CheckedChanged);
-			// 
 			// tb_NPC_ItemReq_2
 			// 
 			this->tb_NPC_ItemReq_2->Location = System::Drawing::Point(54, 52);
@@ -583,17 +629,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label12->TabIndex = 6;
 			this->label12->Text = L"Item 2:";
 			// 
-			// cb_NPC_ItemReq_3
-			// 
-			this->cb_NPC_ItemReq_3->AutoSize = true;
-			this->cb_NPC_ItemReq_3->Location = System::Drawing::Point(217, 80);
-			this->cb_NPC_ItemReq_3->Name = L"cb_NPC_ItemReq_3";
-			this->cb_NPC_ItemReq_3->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_3->TabIndex = 5;
-			this->cb_NPC_ItemReq_3->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_3->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_3->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_3_CheckedChanged);
-			// 
 			// tb_NPC_ItemReq_3
 			// 
 			this->tb_NPC_ItemReq_3->Location = System::Drawing::Point(54, 78);
@@ -610,17 +645,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->label11->Size = System::Drawing::Size(39, 13);
 			this->label11->TabIndex = 3;
 			this->label11->Text = L"Item 3:";
-			// 
-			// cb_NPC_ItemReq_1
-			// 
-			this->cb_NPC_ItemReq_1->AutoSize = true;
-			this->cb_NPC_ItemReq_1->Location = System::Drawing::Point(217, 28);
-			this->cb_NPC_ItemReq_1->Name = L"cb_NPC_ItemReq_1";
-			this->cb_NPC_ItemReq_1->Size = System::Drawing::Size(107, 17);
-			this->cb_NPC_ItemReq_1->TabIndex = 2;
-			this->cb_NPC_ItemReq_1->Text = L"Item Lista Interna";
-			this->cb_NPC_ItemReq_1->UseVisualStyleBackColor = true;
-			this->cb_NPC_ItemReq_1->CheckedChanged += gcnew System::EventHandler(this, &MyForm::cb_NPC_ItemReq_1_CheckedChanged);
 			// 
 			// tb_NPC_ItemReq_1
 			// 
@@ -901,7 +925,7 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->groupBox5->Size = System::Drawing::Size(880, 227);
 			this->groupBox5->TabIndex = 2;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Itens";
+			this->groupBox5->Text = L"Itemlista Interna";
 			// 
 			// bt_save
 			// 
@@ -1431,14 +1455,14 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->tb_NPC_ItemReq_8->Text = "" + this->NPCEdit->npcs[id].reqItem[7].ItemID;
 
 			// Items para Composição (Combobox)
-			this->cb_NPC_ItemReq_1->Checked = !!(this->NPCEdit->npcs[id].reqItem[0].isNotItemList == 1);
-			this->cb_NPC_ItemReq_2->Checked = !!(this->NPCEdit->npcs[id].reqItem[1].isNotItemList == 1);
-			this->cb_NPC_ItemReq_3->Checked = !!(this->NPCEdit->npcs[id].reqItem[2].isNotItemList == 1);
-			this->cb_NPC_ItemReq_4->Checked = !!(this->NPCEdit->npcs[id].reqItem[3].isNotItemList == 1);
-			this->cb_NPC_ItemReq_5->Checked = !!(this->NPCEdit->npcs[id].reqItem[4].isNotItemList == 1);
-			this->cb_NPC_ItemReq_6->Checked = !!(this->NPCEdit->npcs[id].reqItem[5].isNotItemList == 1);
-			this->cb_NPC_ItemReq_7->Checked = !!(this->NPCEdit->npcs[id].reqItem[6].isNotItemList == 1);
-			this->cb_NPC_ItemReq_8->Checked = !!(this->NPCEdit->npcs[id].reqItem[7].isNotItemList == 1);
+			this->cb_item_reqt_1->SelectedIndex = this->NPCEdit->npcs[id].reqItem[0].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[0].isNotItemList : 0;
+			this->cb_item_reqt_2->SelectedIndex = this->NPCEdit->npcs[id].reqItem[1].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[1].isNotItemList : 0;
+			this->cb_item_reqt_3->SelectedIndex = this->NPCEdit->npcs[id].reqItem[2].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[2].isNotItemList : 0;
+			this->cb_item_reqt_4->SelectedIndex = this->NPCEdit->npcs[id].reqItem[3].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[3].isNotItemList : 0;
+			this->cb_item_reqt_5->SelectedIndex = this->NPCEdit->npcs[id].reqItem[4].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[4].isNotItemList : 0;
+			this->cb_item_reqt_6->SelectedIndex = this->NPCEdit->npcs[id].reqItem[5].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[5].isNotItemList : 0;
+			this->cb_item_reqt_7->SelectedIndex = this->NPCEdit->npcs[id].reqItem[6].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[6].isNotItemList : 0;
+			this->cb_item_reqt_8->SelectedIndex = this->NPCEdit->npcs[id].reqItem[7].isNotItemList >= 0 ? this->NPCEdit->npcs[id].reqItem[7].isNotItemList : 0;
 		} else {
 			this->tb_NPC_id->Text = "";
 			this->tb_NPC_face->Text = "";
@@ -1469,14 +1493,14 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->tb_NPC_ItemReq_8->Text = "";
 
 			// Items para Composição (Combobox)
-			this->cb_NPC_ItemReq_1->Checked = false;
-			this->cb_NPC_ItemReq_2->Checked = false;
-			this->cb_NPC_ItemReq_3->Checked = false;
-			this->cb_NPC_ItemReq_4->Checked = false;
-			this->cb_NPC_ItemReq_5->Checked = false;
-			this->cb_NPC_ItemReq_6->Checked = false;
-			this->cb_NPC_ItemReq_7->Checked = false;
-			this->cb_NPC_ItemReq_8->Checked = false;
+			this->cb_item_reqt_1->SelectedIndex = 0;
+			this->cb_item_reqt_2->SelectedIndex = 0;
+			this->cb_item_reqt_3->SelectedIndex = 0;
+			this->cb_item_reqt_4->SelectedIndex = 0;
+			this->cb_item_reqt_5->SelectedIndex = 0;
+			this->cb_item_reqt_6->SelectedIndex = 0;
+			this->cb_item_reqt_7->SelectedIndex = 0;
+			this->cb_item_reqt_8->SelectedIndex = 0;
 		}
 	}
 
@@ -1631,23 +1655,11 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->NPCEdit->npcs[id].reqItem[0].ItemID = valor;
 		}
 	}
-	private: System::Void cb_NPC_ItemReq_1_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[0].isNotItemList = this->cb_NPC_ItemReq_1->Checked ? 1 : 0;
-		}
-	}
 	private: System::Void tb_NPC_ItemReq_2_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 		int id = this->list_NPC->SelectedIndex;
 		int valor = 0;
 		if (id >= 0 && id < 100 && int::TryParse(this->tb_NPC_ItemReq_2->Text, valor)) {
 			this->NPCEdit->npcs[id].reqItem[1].ItemID = valor;
-		}
-	}
-	private: System::Void cb_NPC_ItemReq_2_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[1].isNotItemList = this->cb_NPC_ItemReq_2->Checked ? 1 : 0;
 		}
 	}
 	private: System::Void tb_NPC_ItemReq_3_TextChanged(System::Object^  sender, System::EventArgs^  e) {
@@ -1657,23 +1669,11 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->NPCEdit->npcs[id].reqItem[2].ItemID = valor;
 		}
 	}
-	private: System::Void cb_NPC_ItemReq_3_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[2].isNotItemList = this->cb_NPC_ItemReq_3->Checked ? 1 : 0;
-		}
-	}
 	private: System::Void tb_NPC_ItemReq_4_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 		int id = this->list_NPC->SelectedIndex;
 		int valor = 0;
 		if (id >= 0 && id < 100 && int::TryParse(this->tb_NPC_ItemReq_4->Text, valor)) {
 			this->NPCEdit->npcs[id].reqItem[3].ItemID = valor;
-		}
-	}
-	private: System::Void cb_NPC_ItemReq_4_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[3].isNotItemList = this->cb_NPC_ItemReq_4->Checked ? 1 : 0;
 		}
 	}
 	private: System::Void tb_NPC_ItemReq_5_TextChanged(System::Object^  sender, System::EventArgs^  e) {
@@ -1683,23 +1683,11 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->NPCEdit->npcs[id].reqItem[4].ItemID = valor;
 		}
 	}
-	private: System::Void cb_NPC_ItemReq_5_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[4].isNotItemList = this->cb_NPC_ItemReq_5->Checked ? 1 : 0;
-		}
-	}
 	private: System::Void tb_NPC_ItemReq_6_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 		int id = this->list_NPC->SelectedIndex;
 		int valor = 0;
 		if (id >= 0 && id < 100 && int::TryParse(this->tb_NPC_ItemReq_6->Text, valor)) {
 			this->NPCEdit->npcs[id].reqItem[5].ItemID = valor;
-		}
-	}
-	private: System::Void cb_NPC_ItemReq_6_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[5].isNotItemList = this->cb_NPC_ItemReq_6->Checked ? 1 : 0;
 		}
 	}
 	private: System::Void tb_NPC_ItemReq_7_TextChanged(System::Object^  sender, System::EventArgs^  e) {
@@ -1709,12 +1697,6 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->NPCEdit->npcs[id].reqItem[6].ItemID = valor;
 		}
 	}
-	private: System::Void cb_NPC_ItemReq_7_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
-		int id = this->list_NPC->SelectedIndex;
-		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[6].isNotItemList = this->cb_NPC_ItemReq_7->Checked ? 1 : 0;
-		}
-	}
 	private: System::Void tb_NPC_ItemReq_8_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 		int id = this->list_NPC->SelectedIndex;
 		int valor = 0;
@@ -1722,10 +1704,54 @@ private: System::Windows::Forms::SaveFileDialog^  sfd_mixlist;
 			this->NPCEdit->npcs[id].reqItem[7].ItemID = valor;
 		}
 	}
-	private: System::Void cb_NPC_ItemReq_8_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
+
+
+	private: System::Void cb_item_reqt_1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
 		int id = this->list_NPC->SelectedIndex;
 		if (id >= 0 && id < 100) {
-			this->NPCEdit->npcs[id].reqItem[7].isNotItemList = this->cb_NPC_ItemReq_8->Checked ? 1 : 0;
+			this->NPCEdit->npcs[id].reqItem[0].isNotItemList = this->cb_item_reqt_1->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_2_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[1].isNotItemList = this->cb_item_reqt_2->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_3_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[2].isNotItemList = this->cb_item_reqt_3->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_4_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[3].isNotItemList = this->cb_item_reqt_4->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_5_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[4].isNotItemList = this->cb_item_reqt_5->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_6_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[5].isNotItemList = this->cb_item_reqt_6->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_7_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[6].isNotItemList = this->cb_item_reqt_7->SelectedIndex;
+		}
+	}
+	private: System::Void cb_item_reqt_8_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+		int id = this->list_NPC->SelectedIndex;
+		if (id >= 0 && id < 100) {
+			this->NPCEdit->npcs[id].reqItem[7].isNotItemList = this->cb_item_reqt_8->SelectedIndex;
 		}
 	}
 
