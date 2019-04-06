@@ -1,4 +1,4 @@
-# MixList_EditorV2
+# MixList_Editor
 ## Editor de MixList WYD
 
 ![Imagem do Editor](/images/print_01.png)
