@@ -64,8 +64,8 @@ typedef struct
 	int16_t Type; // 26 - 27// 2 = composiçaõ de soul, 1 = padrão
 	struct
 	{
-		int32_t ItemID; // type
-		int32_t isNotItemList; // index do req
+		int32_t isNotItemList; // type
+		int32_t ItemID; // index do req
 	} reqItem[8];
 
 	int32_t Gold;
