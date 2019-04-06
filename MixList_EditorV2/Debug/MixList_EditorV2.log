@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+d:\projetos\mixlist_editor\mixlist_editorv2\mixlist_editorv2\myform.h(2): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+  MyForm.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
+  MixList_EditorV2.vcxproj -> D:\Projetos\MixList_Editor\MixList_EditorV2\Debug\MixList_EditorV2.exe

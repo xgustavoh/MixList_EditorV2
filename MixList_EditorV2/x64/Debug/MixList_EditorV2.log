@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+d:\projetos\mixlist_editor\mixlist_editorv2\mixlist_editorv2\myform.h(2): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  MyForm.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
+LINK : fatal error LNK1561: pontos de entrada devem ser definidos
